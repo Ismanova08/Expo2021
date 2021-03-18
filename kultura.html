@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <style type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .center {
+        position: absolute;
+        top: 20%;
+        right: 30%;
+      }
+
+      .slider {
+        width: 50%;
+        margin: 20px auto;
+      }
+
+      .slick-slide {
+        margin: 20px 20px;
+      }
+
+      .slick-slide img {
+        width: 100%;
+      }
+
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
+
+      .slick-slide {
+        transition: all ease-in-out 0.3s;
+        opacity: 0.2;
+      }
+
+      .slick-active .img {
+        opacity: 1;
+      }
+
+      .slick-current {
+        opacity: 1;
+      }
+      .logo {
+        position: absolute;
+        right: 20%;
+      }
+      .logo img {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="logo">
+      <a href="index.html">
+        <img src="img/назад.png" alt="" />
+      </a>
+    </section>
+    <section class="center slider">
+      <div>
+        <img src="img/food.png" />
+      </div>
+
+      <div>
+        <a href="game.html">
+          <img src="img/game.png" />
+        </a>
+      </div>
+      <div>
+        <img src="img/music (1).png" />
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./slick/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript">
+      $(document).on("ready", function () {
+        $(".center").slick({
+          focussed: true,
+          infinite: true,
+          focusOnChange: true,
+          arrows: false,
+          focusOnSelect: true,
+          centerMode: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          speed: 1000,
+          centerPadding: "100px",
+        });
+      });
+    </script>
+  </body>
+</html>

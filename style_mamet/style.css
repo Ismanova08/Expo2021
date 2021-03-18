@@ -1,0 +1,140 @@
+/* ======games======= */
+.games {
+  background-color: #b86868;
+  height: 924px;
+}
+.games_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games_block h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 117px;
+
+  color: #590d22;
+}
+.games_second {
+  display: flex;
+  flex-flow: wrap;
+}
+.second_inblock {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #561010;
+  border-radius: 20px 0px 0px 20px;
+}
+.second_inblock .first {
+  position: absolute;
+  padding-left: 400px;
+}
+.second_inblock button {
+  margin-top: 600px;
+  margin-right: 400px;
+  background: #7a4343;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #c4c4c4;
+  font-family: Caesar Dressing Cyrillic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px 10px;
+  text-decoration: none;
+
+  color: #e1e1e1;
+}
+.second_inblock2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(186, 31, 73, 0.8);
+  border-radius: 0px 20px 20px 0px;
+}
+.second_inblock2 img {
+  padding-right: 195px;
+}
+.second_inblock2 button {
+  margin-top: 600px;
+  margin-right: 20px;
+  background: #7a4343;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #c4c4c4;
+  font-family: Caesar Dressing Cyrillic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px 10px;
+  color: #e1e1e1;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ======games======= */
+
+/* =====info======= */
+.info {
+  background-color: #b86868;
+}
+.games_block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games_block2 h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+.alysh {
+  display: flex;
+  flex-flow: wrap;
+  padding-top: 50px;
+}
+.alysh_block1 {
+  width: 50%;
+}
+.alysh_block1 h2 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 72px;
+  line-height: 87px;
+  padding-left: 150px;
+  color: #e9e9e9;
+}
+.alysh_block1 p {
+  padding-bottom: 20px;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.alysh_block2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.alysh_block2 .carousel {
+  width: 30%;
+}
+.alysh_block2 .alysh_photo {
+  width: 70%;
+}
+
+/* =====info======= */
