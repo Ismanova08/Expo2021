@@ -1,0 +1,424 @@
+/* ======games======= */
+.games {
+  background-color: #b86868;
+}
+.games_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games_block h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+.games_second {
+  display: flex;
+  flex-flow: wrap;
+}
+.second_inblock {
+  width: 50%;
+  background: #561010;
+  border-radius: 20px 0px 0px 20px;
+}
+.second_inblock .first {
+  padding-left: 170px;
+}
+.second_inblock h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 144px;
+  line-height: 175px;
+  color: #ac9191;
+  padding: 10px 0px 0px 10px;
+}
+
+.second_inblock3 {
+  width: 50%;
+  display: inline-block;
+  background: rgba(186, 31, 73, 0.8);
+  border-radius: 0px 20px 20px 0px;
+}
+.second_inblock3 h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 114px;
+  line-height: 90px;
+  padding-left: 280px;
+  color: #c1b0b4;
+  padding: 40px 20px 0px 0px;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information label {
+  margin-top: -40px;
+}
+.information label button {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 24px;
+  line-height: 29px;
+  background: #7a4343;
+  border-radius: 20px;
+  color: #e1e1e1;
+  outline: none;
+  border: none;
+  margin: -40px 40px 40px 40px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow img {
+  padding: 40px 120px;
+}
+/* ======games======= */
+
+/* =====info======= */
+.info {
+  background-color: #b86868;
+}
+.games_block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games_block2 h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+.alysh {
+  display: flex;
+  flex-flow: wrap;
+  padding-top: 50px;
+}
+.alysh_block1 {
+  width: 50%;
+}
+.alysh_block1 h2 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 72px;
+  line-height: 87px;
+  padding-left: 150px;
+  color: #e9e9e9;
+}
+.alysh_block1 p {
+  padding-bottom: 20px;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.alysh_block2 {
+  width: 50%;
+}
+
+/* =====info======= */
+
+/* ====kokboru======= */
+.kokboru {
+  background-color: #b86868;
+}
+.kokboru_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kokboru_wrap h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+.kokboru_type {
+  background: rgba(186, 31, 73, 0.8);
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.kokboru_text {
+  width: 50%;
+}
+.kokboru_text h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+  padding-left: 50px;
+}
+.kokboru_text p {
+  padding-left: 50px;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  overflow: hidden;
+  color: #ffffff;
+}
+.kokboru_img {
+  width: 50%;
+}
+
+/* ====kokboru======= */
+/* ======ordo====== */
+.game_ordo {
+  background-color: #b86868;
+}
+.game_ordo_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game_ordo_wrap h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+
+.korgool_game {
+  background: #41673b;
+  border-radius: 20px 0px 0px 20px;
+}
+.second_part {
+  background: #435762;
+  border-radius: 0px 20px 20px 0px;
+}
+.ordo_blocks {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.korgool_game h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 88px;
+  color: #c0cad9;
+}
+.korgool_game img {
+  padding-left: 55px;
+  padding-bottom: 60px;
+}
+.second_part h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 144px;
+  line-height: 175px;
+  color: #c0cad9;
+  padding-left: 20px;
+}
+.ordo_informations {
+  display: flex;
+  justify-content: space-between;
+}
+.ordo_informations .first_label {
+  margin: -70px 0px 0px 240px;
+}
+.ordo_informations .second_label {
+  margin: -70px 240px 0px 0px;
+}
+.ordo_informations button {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 24px;
+  line-height: 29px;
+  background: #8f856a;
+  border-radius: 20px;
+  color: #e1e1e1;
+  outline: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+.arrows img {
+  padding: 50px 100px 50px 100px;
+}
+/* ======ordo====== */
+/* =====korgool======= */
+
+.korgool_info {
+  background-color: #b86868;
+  height: 150vh;
+}
+.korgool_info_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.korgool_info_wrap h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 72px;
+  line-height: 87px;
+  color: #c0cad9;
+}
+.korgool_blocks {
+  background: #41673b;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+.korgool_block_text {
+  width: 50%;
+}
+
+.korgool_block_text h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 72px;
+  line-height: 87px;
+  color: #c0cad9;
+  padding: 15px 0px 0px 20px;
+}
+.korgool_block_text p {
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  padding-left: 150px;
+}
+
+.korgool_block_img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =====korgool======= */
+/* ======kyrgyz_ordo====== */
+.kyrgyz_ordo {
+  background-color: #b86868;
+  padding-bottom: 30px;
+}
+.kyrgyz_ordo_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kyrgyz_ordo_wrap h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+  color: #590d22;
+}
+.kyrgyz_blocks {
+  background: #435762;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-flow: wrap;
+  padding-bottom: 20px;
+}
+.kyrgyz_block_img {
+  width: 50%;
+}
+.kyrgyz_block_img h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 144px;
+  line-height: 175px;
+  color: #c0cad9;
+  padding: 10px 10px;
+}
+.kyrgyz_block_text {
+  width: 50%;
+}
+.kyrgyz_block_text h1 {
+}
+.kyrgyz_block_text p {
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 35px;
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+/* ======kyrgyz_ordo====== */
+
+/* ======taigan====== */
+.taigan {
+  background-color: #b86868;
+}
+.taigan_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.taigan_wrap h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 117px;
+
+  color: #590d22;
+}
+.taigan_blocks {
+  display: flex;
+  flex-flow: wrap;
+}
+.burkut_game {
+  width: 50%;
+  background: #7e762d;
+  border-radius: 20px 0px 0px 20px;
+  padding-bottom: 50px;
+}
+.burkut_game h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 97px;
+  line-height: 90px;
+  color: #c0cad9;
+  padding-left: 100px;
+}
+.burkut_game img {
+  padding-left: 160px;
+}
+.taigan_game {
+  width: 50%;
+  background: #422e4b;
+  border-radius: 0px 20px 20px 0px;
+  padding-bottom: 50px;
+}
+.taigan_game h1 {
+  font-family: Caesar Dressing Cyrillic;
+  font-size: 96px;
+  line-height: 90px;
+  color: #c0cad9;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+}
+.taigan_game img {
+  padding-top: 30px;
+  padding-right: 180px;
+}
+.taigan_informations{
+  display: flex;
+  justify-content: space-between;
+}
+.taigan_informations label{
+  margin-top: -50px;
+}
+.taigan_informations button{
+  font-family: Caesar Dressing Cyrillic;
+font-size: 24px;
+line-height: 29px;
+color: #E1E1E1;
+padding: 5px 10px;
+outline: none;
+border: none;
+background: #8F856A;
+border-radius: 20px;
+margin: -20px 20px;
+}
+
+/* ======taigan====== */
