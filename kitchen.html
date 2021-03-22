@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/TAMcarousel.css" />
+    <link rel="stylesheet" href="fonts/Caesar_Dressing/stylesheet.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/kitchen.css" />
+    <title>Кухня</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+
+    <section class="title_logos">
+      <div class="container">
+        <div class="wrap">
+          <div class="wrap_back">
+            <img src="img/dish_on_plate.png" alt="" />
+          </div>
+          <div class="wrap_title">кухня</div>
+          <div class="wrap_logo">
+            <img src="img/назад.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dishes">
+      <div class="dishes_left">
+        <div class="besh_barmak size">
+          <img src="img/5barmak.png" alt="" />
+          <p>беш бармак</p>
+        </div>
+        <div class="chuchuk size">
+          <p>чучук</p>
+          <img src="img/chuchuk.png" alt="" />
+        </div>
+        <div class="boorsok size">
+          <img src="img/boorsok.png" alt="" />
+          <p>боорсок</p>
+        </div>
+        <div class="kurut size">
+          <p>чучук</p>
+          <img src="img/kurut.png" alt="" />
+        </div>
+      </div>
+      <div class="drinks_right">
+        <div class="middle">
+          <div class="card-carousel">
+            <div class="my-card"></div>
+            <div class="my-card"></div>
+            <div class="my-card"></div>
+            <div class="my-card">
+              <img
+                src="https://www.shoro.kg/wp-content/uploads/2016/08/bozo_jumshak.jpg"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="my-card">
+              <img
+                src="https://www.shoro.kg/wp-content/uploads/2016/08/maksym.jpg"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="my-card">
+              <img
+                src="https://www.shoro.kg/wp-content/uploads/2016/08/Aralash2.jpg"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="my-card"></div>
+            <div class="my-card"></div>
+            <div class="my-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts -->
+
+    <script src="js/TAMcarousel.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-36251023-1"]);
+      _gaq.push(["_setDomainName", "jqueryscript.net"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
+      $num = $(".my-card").length;
+      $even = $num / 2;
+      $odd = ($num + 1) / 2;
+
+      if ($num % 2 == 0) {
+        $(".my-card:nth-child(" + $even + ")").addClass("active");
+        $(".my-card:nth-child(" + $even + ")")
+          .prev()
+          .addClass("prev");
+        $(".my-card:nth-child(" + $even + ")")
+          .next()
+          .addClass("next");
+      } else {
+        $(".my-card:nth-child(" + $odd + ")").addClass("active");
+        $(".my-card:nth-child(" + $odd + ")")
+          .prev()
+          .addClass("prev");
+        $(".my-card:nth-child(" + $odd + ")")
+          .next()
+          .addClass("next");
+      }
+
+      $(".my-card").click(function () {
+        $slide = $(".active").width();
+        console.log($(".active").position().left);
+
+        if ($(this).hasClass("next")) {
+          $(".card-carousel")
+            .stop(false, true)
+            .animate({ left: "-=" + $slide });
+        } else if ($(this).hasClass("prev")) {
+          $(".card-carousel")
+            .stop(false, true)
+            .animate({ left: "+=" + $slide });
+        }
+
+        $(this).removeClass("prev next");
+        $(this).siblings().removeClass("prev active next");
+
+        $(this).addClass("active");
+        $(this).prev().addClass("prev");
+        $(this).next().addClass("next");
+      });
+
+      // Keyboard nav
+      $("html body").keydown(function (e) {
+        if (e.keyCode == 37) {
+          // left
+          $(".active").prev().trigger("click");
+        } else if (e.keyCode == 39) {
+          // right
+          $(".active").next().trigger("click");
+        }
+      });
+
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-36251023-1"]);
+      _gaq.push(["_setDomainName", "jqueryscript.net"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
