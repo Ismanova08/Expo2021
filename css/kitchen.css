@@ -1,0 +1,281 @@
+body {
+  font-family: "Caesar Dressing";
+  position: relative;
+}
+/* ----header---- */
+
+header {
+  background-color: #d8f1ff;
+  height: 50px;
+}
+
+/* ----header end---- */
+
+/* ----section title_logos ------ */
+
+.title_logos {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrap_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 117px;
+
+  color: #474747;
+}
+/* ----section title_logos end ------ */
+
+/* ----dishes------ */
+
+.dishes {
+  display: flex;
+  flex-flow: wrap;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.dishes_left {
+  width: 70%;
+}
+
+.drinks_right {
+  width: 30%;
+}
+
+.size {
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.size p {
+  font-size: 72px;
+  line-height: 87px;
+
+  color: #ffffff;
+}
+
+.size img {
+  transform: translateY(-13%);
+}
+
+.besh_barmak {
+  background: #d68267;
+}
+
+.chuchuk {
+  background: #4a6e83;
+  margin-top: -21.45%;
+}
+
+.boorsok {
+  background: #00a3ff;
+  margin-top: -15.2%;
+}
+
+.kurut {
+  background-color: #52ff00;
+  margin-top: -12.9%;
+}
+/* ----dishes end------ */
+
+/* Slider */
+.middle-content {
+  margin-top: 180px;
+  display: flex;
+}
+.middle-content img {
+  width: 33.3%;
+}
+.middle {
+  transform: rotate(90deg);
+  margin-left: 4rem;
+}
+/* Second carousel */
+
+.card-carousel {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 320px;
+  box-sizing: border-box;
+}
+
+.card-carousel .my-card {
+  height: 20rem;
+  width: 12rem;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.6) translateY(-2rem);
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  background: #2e5266;
+  background: linear-gradient(to top, #2e5266, #6e8898);
+  transition: 1s;
+}
+
+.card-carousel .my-card:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: -5rem;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.card-carousel .my-card:nth-child(0):before {
+  content: "0";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+  content: "1";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+  content: "2";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+  content: "3";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+  content: "4";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(5):before {
+  content: "5";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(6):before {
+  content: "6";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(7):before {
+  content: "7";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(8):before {
+  content: "8";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(9):before {
+  content: "9";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card.active {
+  z-index: 3;
+  -webkit-transform: scale(1) translateY(0) translateX(0);
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+
+.card-carousel .my-card.prev,
+.card-carousel .my-card.next {
+  z-index: 2;
+  -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+  transform: scale(0.8) translateY(-1rem) translateX(0);
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
+
+/* ----- Slider end---- */
