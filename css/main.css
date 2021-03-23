@@ -1,11 +1,11 @@
 .logo1 img {
-  width: 150px;
-  height: 100px;
+  width: 180px;
+  height: 120px;
 }
 .logo1 {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0px 50px;
   background-color: #d8f1ff;
 }
 
@@ -41,7 +41,7 @@ body {
   z-index: 100;
   width: 100%;
   height: 100%;
-  padding: 0 60px;
+  padding: 0px 60px;
   background-color: #d8f1ff;
   -webkit-background-size: cover;
   background-size: cover;
@@ -109,7 +109,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+
   transition: transform 0.4s;
 }
 
@@ -139,4 +139,29 @@ body {
 
 .slick-center:after {
   opacity: 0;
+}
+
+.perehod {
+  background-color: #d8f1ff;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  padding: 10px 100px;
+  overflow: hidden;
+}
+h2 a {
+  color: gray;
+  text-decoration: none;
+}
+button {
+  padding: 5px 10px;
+  font-family: "Caesar_Dressing";
+  outline: none;
+  background-color: #ddd;
+}
+
+.height {
+  height: 100vh;
+  background-color: #d8f1ff;
+  width: 100%;
 }
