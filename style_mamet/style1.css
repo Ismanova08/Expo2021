@@ -1,6 +1,8 @@
 /* ======games======= */
 .games {
   background-color: #b86868;
+
+  padding: 50px 0px;
 }
 .games_block {
   display: flex;
@@ -80,6 +82,7 @@
 /* =====info======= */
 .info {
   background-color: #b86868;
+  padding: 50px 0px;
 }
 .games_block2 {
   display: flex;
@@ -125,6 +128,7 @@
 /* ====kokboru======= */
 .kokboru {
   background-color: #b86868;
+  padding: 50px 0px;
 }
 .kokboru_wrap {
   display: flex;
@@ -171,6 +175,7 @@
 /* ======ordo====== */
 .game_ordo {
   background-color: #b86868;
+  padding: 50pz 0px;
 }
 .game_ordo_wrap {
   display: flex;
@@ -249,6 +254,7 @@
 .korgool_info {
   background-color: #b86868;
   height: 150vh;
+  padding: 50pz 0px;
 }
 .korgool_info_wrap {
   display: flex;
